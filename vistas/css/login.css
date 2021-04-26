@@ -1,0 +1,75 @@
+#fondo{
+    background-image: url(../img/fondo_login.jpeg); 
+    background-position: left top; 
+    background-size: 100%; 
+    background-repeat: repeat;
+    
+}
+#fondo form{
+    border-radius: 8px !important;
+    background-color: #FFF !important; 
+}
+h4.titLogin {
+    font-size: 21px !important;
+    color: #22a1a6;
+    font-weight: bold !important;
+}
+h5.StitLogin{
+    font-weight: bold !important;
+    font-size: 19px !important;
+    color: #22a1a6;
+    margin-top: 1px !important;
+}
+.resetPassword{
+    margin-top: -9px; 
+    text-align: right;
+}
+.resetPassword{
+    font-size: 12px; 
+    margin-right: 5px;
+}
+
+#fondo button{
+    margin-top:-11px
+}
+
+.registro{
+  margin-top: 9px; text-align: right;
+}
+.registro a{
+    font-size: 12px; margin-right: 5px;
+}
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+@media (min-width:1200px){}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+@media (max-width:1199px) and (min-width:992px){}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+@media (max-width:991px) and (min-width:768px){}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+@media (max-width:767px){
+    .display-4{
+        font-size: 20px !important;
+    }
+    
+    input{
+        font-size: 12px !important;   
+    }
+    label{
+        display: none;
+    }
+    p.destit{
+        margin-bottom: 10px !important;
+    }
+}

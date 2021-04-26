@@ -1,0 +1,56 @@
+body,html{
+ 	margin: 0;
+ 	padding: 0;
+ 	width: 100%;
+ 	height: 100%;
+ 	background-color: #F7F8F9;
+}
+
+.frmRegistro{
+	box-sizing: border-box;
+	padding: 10px 40px;
+	width: 500px;
+	background-color: #FFF;
+	box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.frmRegistro .btnRegistrar{
+	width: 100%;
+	color: #fff;
+    background-color: #12bbad;
+    border-color: #12bbad;
+    padding: 15px;
+}
+.frmRegistro .btnRegistrar:hover{
+	background-color: #0F988D;
+	border-color: #0F988D;
+}
+.frmRegistro .form-group{
+	margin-bottom: 20px;
+}
+.frmRegistro .alert span,
+.frmRegistro button span{
+	font-size: 20px !important;
+}
+
+/*==========================================*/
+@media (min-width: 1200px){
+	.frmRegistro{
+		
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+
+}
+@media (max-width: 767px){
+	.frmRegistro{
+		margin: 20px 20px !important;
+		width: 90%;
+	}
+	.frmRegistro h4{
+		font-size: 20px !important;
+	}
+
+}

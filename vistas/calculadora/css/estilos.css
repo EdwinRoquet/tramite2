@@ -1,0 +1,49 @@
+.container {
+    max-width: 1000px!important;
+  }
+
+  @media(min-width:768px){
+    .container, .container-md, .container-sm{
+      max-width: 1000px!important;
+    }
+  }
+  
+  button.accordion {
+    width: 100%;
+    background-color: #006884;
+    border: none;
+    border-bottom: white 1px solid;
+    outline: none;
+    text-align: left;
+    padding: 15px 20px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s linear;
+  }
+  
+  button.accordion:after {
+    content: '\f078';
+    font-family: "fontawesome";
+    font-size: 14px;
+    float: right;
+  }
+  
+  button.accordion.is-open:after {
+    content: '\f077';
+  }
+  
+  button.accordion:hover, button.accordion.is-open {
+    background-color: #0f86a7;
+  }
+  
+  .accordion-content {
+    background-color: white;
+    border-left: 1px solid  #0f86a7;
+    border-right: 1px solid  #0f86a7;
+    border-bottom: 1px solid  #0f86a7;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
+  }
